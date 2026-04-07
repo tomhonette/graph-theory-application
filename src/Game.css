@@ -1,0 +1,54 @@
+@font-face {/*so it gets the font from my resources directory*/
+    font-family: "Minecraftia";
+    src: url("fonts/Minecraftia.ttf"); /* relative path */
+}
+.root{
+    -fx-background-color: transparent;
+    /*-fx-background-color: #000000;    we can use this if there is white appearing around the buttons, for now they're fixed*/
+}
+.button{
+    /*-fx-background-image: url("images/button1.png");*/
+    -fx-background-color: transparent;
+    -fx-padding: 0; /* Remove padding */
+    -fx-border-width: 0;
+    /* Pixelated texture in the background of the button,
+    since the linear gradient function didn't help much  creating the effect we wanted*/
+    -fx-background-repeat: no-repeat;
+    -fx-text-fill: white;
+    -fx-font-family: "Minecraftia"; /* the only font I could find close to the presentation */
+    -fx-font-size: 24px;
+    -fx-alignment: center;
+    /*-fx-effect: dropshadow( one-pass-box , #9461fd , 8 , 0.0 , 2 , 0 );*/
+
+}
+.text{
+    -fx-text-fill: #9461fd;
+    -fx-font-family: "Minecraftia";
+}
+#Boh{
+    -fx-background-image: url("images/image.jpg");
+    -fx-background-position: center ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+
+}
+#button0{
+    -fx-background-image: url("images/button00.png");
+    -fx-background-repeat: no-repeat;
+}
+#button1{
+    -fx-background-image: url("images/button1.png");
+}
+#button2{
+    -fx-background-color: linear-gradient(#FA3A0A, #D8340B);
+    -fx-padding: 5;
+    -fx-border-width: 3px;
+    -fx-text-fill: white;
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 5, 0.5, 0, 1);
+    -fx-alignment: center;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 30px;
+}

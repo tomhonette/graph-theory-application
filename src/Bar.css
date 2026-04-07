@@ -1,0 +1,146 @@
+@font-face {/*so it gets the font from my resources directory*/
+    font-family: "Gameplay";
+    src: url("fonts/Gameplay.ttf"); /* relative path */
+}
+
+#Addition{
+    -fx-background-color: transparent;
+    -fx-padding: 0; /* Remove padding */
+    -fx-border-width: 0;
+    -fx-text-fill: #9461fd;
+    -fx-font-family: "Gameplay"; /* different font */
+    -fx-font-size: 13px;
+    -fx-alignment: center;
+}
+
+.myButton:hover{
+    /*so when the user puts arrow on top of it, it will change colour*/
+    -fx-background-color: #ccff15;
+
+}
+.myButton{
+    -fx-background-color: linear-gradient(#9461fd, #7f54d6);
+    -fx-padding: 5;
+    -fx-border-width: 3px;
+    -fx-text-fill: white;
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 5, 0.5, 0, 1);
+    -fx-alignment: center;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 30px;
+}
+
+.forces:hover{
+    /*so when the user puts arrow on top of it, it will change colour*/
+    -fx-background-color: #ccff15;
+
+}
+.forces{
+    -fx-background-color: linear-gradient(#9461fd, #7f54d6);
+    -fx-padding: 5;
+    -fx-border-width: 3px;
+    -fx-text-fill: white;
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 5, 0.5, 0, 1);
+    -fx-alignment: center;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+}
+
+.startButton{
+    -fx-background-color: linear-gradient(#9BDF57, #87C34B);
+    -fx-padding: 5;
+    -fx-border-width: 3px;
+    -fx-text-fill: black;
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 5, 0.5, 0, 1);
+    -fx-alignment: center;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 30px;
+}
+
+.startButton:hover{
+    -fx-background-color: #54A40F;
+}
+
+
+.giveUp{
+    -fx-background-color: linear-gradient(#FA3A0A, #D8340B);
+    -fx-padding: 5;
+    -fx-border-width: 3px;
+    -fx-text-fill: white;
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 5, 0.5, 0, 1);
+    -fx-alignment: center;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 30px;
+}
+.giveUp:hover{
+    -fx-background-color: #B52D0B;
+}
+.backgroundStyle{
+
+        -fx-background-color:
+               linear-gradient(from 0% 0% to 100% 100%, #5e3a1f 25%, #7a5133 25%, #7a5133 50%, #946b4a 50%, #946b4a 75%, #b08362 75%);
+
+        -fx-background-size: 20px 20px;
+        -fx-border-color: #402a16;
+        -fx-border-width: 10px; /* Brown border around the scene to add more of a pixelated stylee */
+
+}
+.textPixel{
+
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-stroke-width: 2;
+}
+#Backgr{
+    -fx-background-image: url("images/sunsetBackgr.jpg");
+    -fx-background-position: center ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+.textTitle{
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 12px;
+    -fx-text-fill:#ff0070;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 0, 0.8), 10, 0.5, 0, 0);
+}
+
+.genButton{
+    -fx-background-color: linear-gradient(#9BDF57, #87C34B);
+    -fx-padding: 5;
+    -fx-border-width: 3px;
+    -fx-text-fill: black;
+    -fx-font-family: "Gameplay";
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 5, 0.5, 0, 1);
+    -fx-alignment: center;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 30px;
+}
+
+.genButton:hover{
+    -fx-background-color: #54A40F;
+}
+.textInput{
+
+    -fx-background-color: linear-gradient(#ffde59, #ff914d);
+    -fx-font-family: "Gameplay";
+    -fx-text-fill:#ff0070 ;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-stroke-width: 2;
+}

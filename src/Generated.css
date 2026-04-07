@@ -1,0 +1,39 @@
+#Back{
+    -fx-background-image: url("images/darkBackgr.jpg");
+    -fx-background-position: center ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.stack-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.pane {
+    -fx-background-color: transparent;
+}
+/* Customize the scrollbar track (background area) */
+.scroll-pane .scroll-bar:horizontal .track,
+.scroll-pane .scroll-bar:vertical .track {
+    -fx-background-color: black; /* Make the track transparent or any desired color */
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+.scroll-pane .scroll-bar:horizontal .thumb,
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #FF53CD; /* Purple or any color you like */
+    -fx-background-radius: 5px; /* Optional: Add rounded corners */
+}
+/* Style the arrows (optional) */
+.scroll-pane .scroll-bar:horizontal .increment-arrow,
+.scroll-pane .scroll-bar:horizontal .decrement-arrow,
+.scroll-pane .scroll-bar:vertical .increment-arrow,
+.scroll-pane .scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: black; /* Neon purple */
+}
