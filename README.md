@@ -48,10 +48,7 @@ JavaFX
 
 - Tom Honette
 - Mabby Deggiovanni
-- Anatolie Priseajniuc
-- Georgios Artemiou
-- Pooria Abedi Maki
-- Anna Nowak
+- 4 other students
 
 
 First year Computer Sciences - University project
